@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asd\\RiderProjects\\RacetimeTrackerAPI\\RacetimeTrackerAPI\\RacetimeTrackerAPI.csproj": {}
+    "C:\\Users\\14505\\Documents\\TimeTrackerDotNet\\RaceTimeTracker\\RacetimeTrackerAPI\\RacetimeTrackerAPI\\RacetimeTrackerAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asd\\RiderProjects\\RacetimeTrackerAPI\\RacetimeTrackerAPI\\RacetimeTrackerAPI.csproj": {
+    "C:\\Users\\14505\\Documents\\TimeTrackerDotNet\\RaceTimeTracker\\RacetimeTrackerAPI\\RacetimeTrackerAPI\\RacetimeTrackerAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asd\\RiderProjects\\RacetimeTrackerAPI\\RacetimeTrackerAPI\\RacetimeTrackerAPI.csproj",
+        "projectUniqueName": "C:\\Users\\14505\\Documents\\TimeTrackerDotNet\\RaceTimeTracker\\RacetimeTrackerAPI\\RacetimeTrackerAPI\\RacetimeTrackerAPI.csproj",
         "projectName": "RacetimeTrackerAPI",
-        "projectPath": "C:\\Users\\Asd\\RiderProjects\\RacetimeTrackerAPI\\RacetimeTrackerAPI\\RacetimeTrackerAPI.csproj",
-        "packagesPath": "C:\\Users\\Asd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asd\\RiderProjects\\RacetimeTrackerAPI\\RacetimeTrackerAPI\\obj\\",
+        "projectPath": "C:\\Users\\14505\\Documents\\TimeTrackerDotNet\\RaceTimeTracker\\RacetimeTrackerAPI\\RacetimeTrackerAPI\\RacetimeTrackerAPI.csproj",
+        "packagesPath": "C:\\Users\\14505\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\14505\\Documents\\TimeTrackerDotNet\\RaceTimeTracker\\RacetimeTrackerAPI\\RacetimeTrackerAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Asd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\14505\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,6 +93,10 @@
               "target": "Package",
               "version": "[8.0.7, )"
             },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[14.1.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -117,7 +121,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RacetimeTrackerClient
-build_property.ProjectDir = C:\Users\Asd\RiderProjects\RacetimeTrackerClient\RacetimeTrackerClient\
+build_property.ProjectDir = C:\Users\14505\Documents\TimeTrackerDotNet\RaceTimeTracker\RacetimeTrackerClient\RacetimeTrackerClient\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

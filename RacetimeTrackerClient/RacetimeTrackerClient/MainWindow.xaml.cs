@@ -19,17 +19,27 @@ namespace RacetimeTrackerClient;
 public partial class MainWindow : Window
 {
     private readonly UserService _userService;
-    public MainWindow(UserService userService)
+    private readonly LoginService _loginService;
+    
+    public MainWindow(UserService userService, LoginService loginService)
     {
         _userService = userService;
+        _loginService = loginService;
 
         this.InitializeComponent();
-        this.Loaded += this.Window_Loaded;
     }
 
-    private async void Window_Loaded(object sender, RoutedEventArgs e)
+    private async void LoginButton_Click(object sender, RoutedEventArgs e)
     {
-        List<User> users = await this._userService.GetUsersAsync();
-        this.UsersDataGrid.ItemsSource = users;
+        bool success = await _loginService.Login(new User(UsernameTextBox.Text, PasswordBox.Password));
+
+        if (!success)
+        {
+            FeedbackTextBlock.Text = "Wrong username or password";
+            FeedbackTextBlock.Foreground = Brushes.Red;
+            return;
+        }
+        FeedbackTextBlock.Text = "Logged in";
+        FeedbackTextBlock.Foreground = Brushes.Green;
     }
 }

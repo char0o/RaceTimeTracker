@@ -19,7 +19,12 @@ public partial class App : Application
         
         serviceCollection.AddHttpClient<UserService>(client =>
         {
-            client.BaseAddress = new Uri("http://localhost:5026");
+            client.BaseAddress = new Uri("http://localhost:5026/");
+        });
+        
+        serviceCollection.AddHttpClient<LoginService>(client =>
+        {
+            client.BaseAddress = new Uri("http://localhost:5026/");
         });
         
         serviceCollection.AddSingleton<UserService>();

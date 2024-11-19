@@ -5,9 +5,45 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RacetimeTrackerClient"
         mc:Ignorable="d"
-        Title="MainWindow" Height="800" Width="600">
-    <Grid>
-        <DataGrid x:Name="UsersDataGrid">
-        </DataGrid>
+        Title="MainWindow" Height="600" Width="400">
+    <Window.Style>
+        <Style TargetType="Window" BasedOn="{StaticResource {x:Type Window}}"/>
+    </Window.Style>
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        
+        <TextBlock Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" FontSize="36" Margin="10" FontFamily="Montserrat">RaceTime Tracker</TextBlock>
+        <Image Grid.ColumnSpan="2" Source="Resources/race.png" Width="Auto" Height="200" Grid.Row="1" Margin="10"></Image>
+        <!-- Username Label and TextBox -->
+        <TextBlock Text="Username:" VerticalAlignment="Center" Grid.ColumnSpan="2" Grid.Row="2" Grid.Column="0" Margin="5, 50, 5, 5"/>
+        <TextBox x:Name="UsernameTextBox" Grid.ColumnSpan="2" Grid.Row="3" Grid.Column="0" Margin="5" />
+
+        <!-- Password Label and PasswordBox -->
+        <TextBlock Text="Password:" Grid.ColumnSpan="2" VerticalAlignment="Center" Grid.Row="4" Grid.Column="0" Margin="5"/>
+        <PasswordBox x:Name="PasswordBox" Grid.ColumnSpan="2" Grid.Row="5" Grid.Column="0" Margin="5" />
+
+        <!-- Login Button -->
+        <Button Content="Login" Grid.Row="6" Grid.Column="0" Margin="5, 10, 5, 5"
+                 Width="100" Click="LoginButton_Click" />
+        
+        <Button Content="Register" Grid.Row="6" Grid.Column="1" Margin="5, 10, 5, 5"
+                 Width="100" Click="LoginButton_Click" />
+
+        <!-- Feedback Message -->
+        <TextBlock x:Name="FeedbackTextBlock" Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" 
+                   Text="" Foreground="Red" HorizontalAlignment="Center" Margin="10" FontSize="16" FontWeight="Bold"/>
     </Grid>
 </Window>

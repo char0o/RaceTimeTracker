@@ -22,6 +22,8 @@ builder.Services.AddScoped<UserDepot>();
 builder.Services.AddScoped<PasswordHashingService>();
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddSwaggerGen();
+builder.Services.AddOpenApiDocument();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

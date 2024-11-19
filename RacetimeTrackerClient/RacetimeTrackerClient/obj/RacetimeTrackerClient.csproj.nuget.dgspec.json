@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asd\\RiderProjects\\RacetimeTrackerClient\\RacetimeTrackerClient\\RacetimeTrackerClient.csproj": {}
+    "C:\\Users\\14505\\Documents\\TimeTrackerDotNet\\RaceTimeTracker\\RacetimeTrackerClient\\RacetimeTrackerClient\\RacetimeTrackerClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asd\\RiderProjects\\RacetimeTrackerClient\\RacetimeTrackerClient\\RacetimeTrackerClient.csproj": {
+    "C:\\Users\\14505\\Documents\\TimeTrackerDotNet\\RaceTimeTracker\\RacetimeTrackerClient\\RacetimeTrackerClient\\RacetimeTrackerClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asd\\RiderProjects\\RacetimeTrackerClient\\RacetimeTrackerClient\\RacetimeTrackerClient.csproj",
+        "projectUniqueName": "C:\\Users\\14505\\Documents\\TimeTrackerDotNet\\RaceTimeTracker\\RacetimeTrackerClient\\RacetimeTrackerClient\\RacetimeTrackerClient.csproj",
         "projectName": "RacetimeTrackerClient",
-        "projectPath": "C:\\Users\\Asd\\RiderProjects\\RacetimeTrackerClient\\RacetimeTrackerClient\\RacetimeTrackerClient.csproj",
-        "packagesPath": "C:\\Users\\Asd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asd\\RiderProjects\\RacetimeTrackerClient\\RacetimeTrackerClient\\obj\\",
+        "projectPath": "C:\\Users\\14505\\Documents\\TimeTrackerDotNet\\RaceTimeTracker\\RacetimeTrackerClient\\RacetimeTrackerClient\\RacetimeTrackerClient.csproj",
+        "packagesPath": "C:\\Users\\14505\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\14505\\Documents\\TimeTrackerDotNet\\RaceTimeTracker\\RacetimeTrackerClient\\RacetimeTrackerClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Asd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\14505\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,6 +45,14 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
+            "AdonisUI": {
+              "target": "Package",
+              "version": "[1.17.1, )"
+            },
+            "AdonisUI.ClassicTheme": {
+              "target": "Package",
+              "version": "[1.17.1, )"
+            },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[9.0.0, )"
@@ -73,7 +81,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
